@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Indent Parser and Aliens", "GVGAI-Fsharp\Indent Parser and Aliens.fsproj", "{637D0871-83E9-4691-9534-4D45AA56EC5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sprites", "Sprites", "{226716A9-73BC-457D-97CA-4EECC9A6D2C1}"
+	ProjectSection(SolutionItems) = preProject
+		GVGAI-Fsharp\Sprites\alien.xnb = GVGAI-Fsharp\Sprites\alien.xnb
+		GVGAI-Fsharp\Sprites\avatar.xnb = GVGAI-Fsharp\Sprites\avatar.xnb
+		GVGAI-Fsharp\Sprites\avatarBlue.xnb = GVGAI-Fsharp\Sprites\avatarBlue.xnb
+		GVGAI-Fsharp\Sprites\avatarGreen.xnb = GVGAI-Fsharp\Sprites\avatarGreen.xnb
+		GVGAI-Fsharp\Sprites\avatarRed.xnb = GVGAI-Fsharp\Sprites\avatarRed.xnb
+		GVGAI-Fsharp\Sprites\avatarYellow.xnb = GVGAI-Fsharp\Sprites\avatarYellow.xnb
+		GVGAI-Fsharp\Sprites\base.xnb = GVGAI-Fsharp\Sprites\base.xnb
+		GVGAI-Fsharp\Sprites\bee.xnb = GVGAI-Fsharp\Sprites\bee.xnb
+		GVGAI-Fsharp\Sprites\bomb.xnb = GVGAI-Fsharp\Sprites\bomb.xnb
+		GVGAI-Fsharp\Sprites\boulder.xnb = GVGAI-Fsharp\Sprites\boulder.xnb
+		GVGAI-Fsharp\Sprites\boulderRed.xnb = GVGAI-Fsharp\Sprites\boulderRed.xnb
+		GVGAI-Fsharp\Sprites\box.xnb = GVGAI-Fsharp\Sprites\box.xnb
+		GVGAI-Fsharp\Sprites\boxBlue.xnb = GVGAI-Fsharp\Sprites\boxBlue.xnb
+		GVGAI-Fsharp\Sprites\boxGreen.xnb = GVGAI-Fsharp\Sprites\boxGreen.xnb
+		GVGAI-Fsharp\Sprites\boxRed.xnb = GVGAI-Fsharp\Sprites\boxRed.xnb
+		GVGAI-Fsharp\Sprites\bullet.xnb = GVGAI-Fsharp\Sprites\bullet.xnb
+		GVGAI-Fsharp\Sprites\bus.xnb = GVGAI-Fsharp\Sprites\bus.xnb
+		GVGAI-Fsharp\Sprites\busstop.xnb = GVGAI-Fsharp\Sprites\busstop.xnb
+		GVGAI-Fsharp\Sprites\butterfly.xnb = GVGAI-Fsharp\Sprites\butterfly.xnb
+		GVGAI-Fsharp\Sprites\camel.xnb = GVGAI-Fsharp\Sprites\camel.xnb
+		GVGAI-Fsharp\Sprites\carcass.xnb = GVGAI-Fsharp\Sprites\carcass.xnb
+		GVGAI-Fsharp\Sprites\chair.xnb = GVGAI-Fsharp\Sprites\chair.xnb
+		GVGAI-Fsharp\Sprites\city.xnb = GVGAI-Fsharp\Sprites\city.xnb
+		GVGAI-Fsharp\Sprites\cityBlue.xnb = GVGAI-Fsharp\Sprites\cityBlue.xnb
+		GVGAI-Fsharp\Sprites\cityGreen.xnb = GVGAI-Fsharp\Sprites\cityGreen.xnb
+		GVGAI-Fsharp\Sprites\cityRed.xnb = GVGAI-Fsharp\Sprites\cityRed.xnb
+		GVGAI-Fsharp\Sprites\cocoon.xnb = GVGAI-Fsharp\Sprites\cocoon.xnb
+		GVGAI-Fsharp\Sprites\coin.xnb = GVGAI-Fsharp\Sprites\coin.xnb
+		GVGAI-Fsharp\Sprites\crab.xnb = GVGAI-Fsharp\Sprites\crab.xnb
+		GVGAI-Fsharp\Sprites\crystal.xnb = GVGAI-Fsharp\Sprites\crystal.xnb
+		GVGAI-Fsharp\Sprites\damaged.xnb = GVGAI-Fsharp\Sprites\damaged.xnb
+		GVGAI-Fsharp\Sprites\diamond.xnb = GVGAI-Fsharp\Sprites\diamond.xnb
+		GVGAI-Fsharp\Sprites\dirt.xnb = GVGAI-Fsharp\Sprites\dirt.xnb
+		GVGAI-Fsharp\Sprites\door.xnb = GVGAI-Fsharp\Sprites\door.xnb
+		GVGAI-Fsharp\Sprites\exit.xnb = GVGAI-Fsharp\Sprites\exit.xnb
+		GVGAI-Fsharp\Sprites\explosion.xnb = GVGAI-Fsharp\Sprites\explosion.xnb
+		GVGAI-Fsharp\Sprites\fire.xnb = GVGAI-Fsharp\Sprites\fire.xnb
+		GVGAI-Fsharp\Sprites\flower.xnb = GVGAI-Fsharp\Sprites\flower.xnb
+		GVGAI-Fsharp\Sprites\forest.xnb = GVGAI-Fsharp\Sprites\forest.xnb
+		GVGAI-Fsharp\Sprites\frog.xnb = GVGAI-Fsharp\Sprites\frog.xnb
+		GVGAI-Fsharp\Sprites\ghost.xnb = GVGAI-Fsharp\Sprites\ghost.xnb
+		GVGAI-Fsharp\Sprites\goal.xnb = GVGAI-Fsharp\Sprites\goal.xnb
+		GVGAI-Fsharp\Sprites\goat.xnb = GVGAI-Fsharp\Sprites\goat.xnb
+		GVGAI-Fsharp\Sprites\gold.xnb = GVGAI-Fsharp\Sprites\gold.xnb
+		GVGAI-Fsharp\Sprites\hell.xnb = GVGAI-Fsharp\Sprites\hell.xnb
+		GVGAI-Fsharp\Sprites\hole.xnb = GVGAI-Fsharp\Sprites\hole.xnb
+		GVGAI-Fsharp\Sprites\honey.xnb = GVGAI-Fsharp\Sprites\honey.xnb
+		GVGAI-Fsharp\Sprites\honeyLeft.xnb = GVGAI-Fsharp\Sprites\honeyLeft.xnb
+		GVGAI-Fsharp\Sprites\honeyRight.xnb = GVGAI-Fsharp\Sprites\honeyRight.xnb
+		GVGAI-Fsharp\Sprites\honeyUp.xnb = GVGAI-Fsharp\Sprites\honeyUp.xnb
+		GVGAI-Fsharp\Sprites\ice.xnb = GVGAI-Fsharp\Sprites\ice.xnb
+		GVGAI-Fsharp\Sprites\key.xnb = GVGAI-Fsharp\Sprites\key.xnb
+		GVGAI-Fsharp\Sprites\lock.xnb = GVGAI-Fsharp\Sprites\lock.xnb
+		GVGAI-Fsharp\Sprites\log.xnb = GVGAI-Fsharp\Sprites\log.xnb
+		GVGAI-Fsharp\Sprites\mana.xnb = GVGAI-Fsharp\Sprites\mana.xnb
+		GVGAI-Fsharp\Sprites\marsh.xnb = GVGAI-Fsharp\Sprites\marsh.xnb
+		GVGAI-Fsharp\Sprites\missile.xnb = GVGAI-Fsharp\Sprites\missile.xnb
+		GVGAI-Fsharp\Sprites\monster.xnb = GVGAI-Fsharp\Sprites\monster.xnb
+		GVGAI-Fsharp\Sprites\mushroom.xnb = GVGAI-Fsharp\Sprites\mushroom.xnb
+		GVGAI-Fsharp\Sprites\pellet.xnb = GVGAI-Fsharp\Sprites\pellet.xnb
+		GVGAI-Fsharp\Sprites\portal.xnb = GVGAI-Fsharp\Sprites\portal.xnb
+		GVGAI-Fsharp\Sprites\powerpill.xnb = GVGAI-Fsharp\Sprites\powerpill.xnb
+		GVGAI-Fsharp\Sprites\prof.xnb = GVGAI-Fsharp\Sprites\prof.xnb
+		GVGAI-Fsharp\Sprites\shield.xnb = GVGAI-Fsharp\Sprites\shield.xnb
+		GVGAI-Fsharp\Sprites\shovel.xnb = GVGAI-Fsharp\Sprites\shovel.xnb
+		GVGAI-Fsharp\Sprites\smoke.xnb = GVGAI-Fsharp\Sprites\smoke.xnb
+		GVGAI-Fsharp\Sprites\spaceship.xnb = GVGAI-Fsharp\Sprites\spaceship.xnb
+		GVGAI-Fsharp\Sprites\sword.xnb = GVGAI-Fsharp\Sprites\sword.xnb
+		GVGAI-Fsharp\Sprites\tablebacon.xnb = GVGAI-Fsharp\Sprites\tablebacon.xnb
+		GVGAI-Fsharp\Sprites\tableempty.xnb = GVGAI-Fsharp\Sprites\tableempty.xnb
+		GVGAI-Fsharp\Sprites\tableused.xnb = GVGAI-Fsharp\Sprites\tableused.xnb
+		GVGAI-Fsharp\Sprites\truck.xnb = GVGAI-Fsharp\Sprites\truck.xnb
+		GVGAI-Fsharp\Sprites\virus.xnb = GVGAI-Fsharp\Sprites\virus.xnb
+		GVGAI-Fsharp\Sprites\waitor.xnb = GVGAI-Fsharp\Sprites\waitor.xnb
+		GVGAI-Fsharp\Sprites\wall.xnb = GVGAI-Fsharp\Sprites\wall.xnb
+		GVGAI-Fsharp\Sprites\wallBlue.xnb = GVGAI-Fsharp\Sprites\wallBlue.xnb
+		GVGAI-Fsharp\Sprites\wallGreen.xnb = GVGAI-Fsharp\Sprites\wallGreen.xnb
+		GVGAI-Fsharp\Sprites\wallRed.xnb = GVGAI-Fsharp\Sprites\wallRed.xnb
+		GVGAI-Fsharp\Sprites\water.xnb = GVGAI-Fsharp\Sprites\water.xnb
+		GVGAI-Fsharp\Sprites\zombie.xnb = GVGAI-Fsharp\Sprites\zombie.xnb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fonts", "Fonts", "{4F454C08-9DF4-4A2A-B30A-318080A7C3FB}"
+	ProjectSection(SolutionItems) = preProject
+		GVGAI-Fsharp\Fonts\Arial.xnb = GVGAI-Fsharp\Fonts\Arial.xnb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{637D0871-83E9-4691-9534-4D45AA56EC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637D0871-83E9-4691-9534-4D45AA56EC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637D0871-83E9-4691-9534-4D45AA56EC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637D0871-83E9-4691-9534-4D45AA56EC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
