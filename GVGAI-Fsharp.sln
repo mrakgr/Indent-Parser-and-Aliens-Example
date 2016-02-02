@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Indent Parser and Aliens", "GVGAI-Fsharp\Indent Parser and Aliens.fsproj", "{637D0871-83E9-4691-9534-4D45AA56EC5A}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Indent Parser and Aliens Example", "GVGAI-Fsharp\Indent Parser and Aliens Example.fsproj", "{637D0871-83E9-4691-9534-4D45AA56EC5A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sprites", "Sprites", "{226716A9-73BC-457D-97CA-4EECC9A6D2C1}"
 	ProjectSection(SolutionItems) = preProject
