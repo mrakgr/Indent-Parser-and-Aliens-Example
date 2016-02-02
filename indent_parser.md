@@ -1,4 +1,4 @@
-In this solution `parser_exercise#.fsx` files contain my past attempts at reconstructing the [Fparsec](http://www.quanttec.com/fparsec/) [indentation parser](https://gist.github.com/impworks/3772212) which I will definitely need to parse VGDL grammars.
+In this solution, the `parser_exercise#.fsx` files contain my past attempts at reconstructing the [Fparsec](http://www.quanttec.com/fparsec/) [indentation parser](https://gist.github.com/impworks/3772212) which I will definitely need to parse VGDL grammars.
 
 ```F#
 
