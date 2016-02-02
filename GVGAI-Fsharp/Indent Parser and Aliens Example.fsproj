@@ -70,6 +70,7 @@
     <None Include="parser_exercise9.fsx" />
     <None Include="parser_exercise10.fsx" />
     <None Include="parser_exercise11.fsx" />
+    <None Include="readme.md" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FParsec">
