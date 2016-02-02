@@ -83,6 +83,6 @@ let t = runParserOnString parser UserState.Default "indentation test" ex1
 
 Comparing it with the original indent parser by Fparsec's author, I think the above code is much more readable in regards to the control flow. The technique used is to code the loop in a separate function. In functional languages as there are no return or break statements, when one want to emulate that functionality one uses a tail recursive function with conditionals instead. It should have been the first thing to try instead of last.
 
-The above parser is relatively simple, it just returns an error if it encounters higher indentation inside the loop or if the parser function call (let result = p stream) fails. It uses Userstate to keep track of the indentation level from call to call.
+The above parser is relatively simple, it just returns an error if it encounters higher indentation inside the loop or if the parser function call (`let result = p stream`) fails. It uses Userstate to keep track of the indentation level from call to call.
 
 It is actually possible to do it without using state, as shown in `parser_exercise7.fsx` and I think that parser would be more efficient for VGDL given the structure of the formal language it uses.
