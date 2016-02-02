@@ -58,7 +58,7 @@
     <None Include="aliens_continuous.fsx" />
     <None Include="aliens_grid.fsx" />
     <None Include="aliens_parser.fsx" />
-    <None Include="indent parser.fsx" />
+    <None Include="indent_parser.fsx" />
     <None Include="parser_exercise1.fsx" />
     <None Include="parser_exercise2.fsx" />
     <None Include="parser_exercise3.fsx" />

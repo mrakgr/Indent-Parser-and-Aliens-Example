@@ -96,6 +96,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fonts", "Fonts", "{4F454C08
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{624472D2-4D8F-4355-A57E-A114AF2BA3A4}"
 	ProjectSection(SolutionItems) = preProject
+		indent_parser.md = indent_parser.md
 		readme.md = readme.md
 	EndProjectSection
 EndProject

@@ -1,20 +1,6 @@
-﻿// I am just imitating a genetic algorithm at this point. No way I can handle those branches.
-// Let me touch up #9 a bit so it returns arrays and then I will call it a day.
+In this solution `parser_exercise#.fsx` files contain my past attempts at reconstructing the [Fparsec](http://www.quanttec.com/fparsec/) [indentation parser](https://gist.github.com/impworks/3772212) which I will definitely need to parse VGDL grammars.
 
-// Edit: No, actually this is wrong again.
-// Somehow this parser is turning far far harder than I thought it would.
-// Just now it occured to me that if I was imitating a genetic algorithm that I should have
-// created unit tests ahead of time instead of just pumping up my effort.
-
-// The unit tests would not have been as effective for neural nets as they would have been for this here.
-
-// No, let me make this my last attempt. I'll just make a tail recursive loop inside.
-
-// Edit: This works, I am sure of it. No need to fit things with unit tests.
-// I finally did it and this form is quite a bit more pleasing than the example parser I found on the net.
-
-// I should have done it in a tail recursive manner from the start instead of mimicking the form
-// of a parser that I found on the net. Oh, well.
+```F#
 
 #r "../packages/FParsec.1.0.2/lib/net40-client/FParsecCS.dll"
 #r "../packages/FParsec.1.0.2/lib/net40-client/FParsec.dll"
@@ -93,3 +79,10 @@ let ex1 =
 
 let t = runParserOnString parser UserState.Default "indentation test" ex1
 
+```
+
+Comparing it with the original indent parser by Fparsec's author, I think the above code is much more readable in regards to the control flow. The technique used is to code the loop in a separate function. In functional languages as there are no return or break statements, when one want to emulate that functionality one uses a tail recursive function with conditionals instead. It should have been the first thing to try instead of last.
+
+The above parser is relatively simple, it just returns an error if it encounters higher indentation inside the loop or if the parser function call (let result = p stream) fails. It uses Userstate to keep track of the indentation level from call to call.
+
+It is actually possible to do it without using state, as shown in `parser_exercise7.fsx` and I think that parser would be more efficient for VGDL given the structure of the formal language it uses.
