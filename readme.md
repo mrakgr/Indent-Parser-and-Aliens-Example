@@ -15,3 +15,7 @@ Well, I'll know in about a month.
 Articles:
 
 [Indentation parser](https://github.com/mrakgr/Indent-Parser-and-Aliens-Example/blob/master/indent_parser.md).
+
+Dependecies:
+Fparsec 1.0.2
+MonoGame 3.4
